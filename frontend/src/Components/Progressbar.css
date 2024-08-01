@@ -1,0 +1,28 @@
+.progress-bar-container {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.progress-bar-fill {
+    background-color: #4caf50;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.progress-bar-percentage {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
